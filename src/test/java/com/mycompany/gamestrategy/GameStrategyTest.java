@@ -60,12 +60,12 @@ public class GameStrategyTest {
     @Test
     public void testGameStategy3() {
         String[] arreglo = new String[2];
-        arreglo[0] = "2 ab a";
+        arreglo[0] = "2 ab b";
         arreglo[1] = "1 b";
 
         int[][] resultadoEsperado = new int[2][2];
         resultadoEsperado[0][0] = 0;
-        resultadoEsperado[0][1] = -1;
+        resultadoEsperado[0][1] = 1;
         resultadoEsperado[1][0] = -1;
         resultadoEsperado[1][1] = 0;
 

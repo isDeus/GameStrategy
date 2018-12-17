@@ -60,7 +60,7 @@ public class Grafo {
         while (mask > 0) {
 
             if ((mask & 1) > 0) {
-                cant = pasos[i];
+                cant = cant > pasos[i] ? cant : pasos[i];
             }
 
             i++; 
